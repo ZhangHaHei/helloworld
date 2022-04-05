@@ -1,7 +1,7 @@
 #include <DHT.h>
 #include<ESP8266WiFi.h>
 #define DHTPIN D4 //温度传感器引脚
-
+#hello
 #define DHTTYPE DHT11 // DHT 11
 DHT dht(DHTPIN, DHTTYPE);
 static WiFiClient espClient;
